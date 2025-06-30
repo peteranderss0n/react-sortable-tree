@@ -949,7 +949,10 @@ export const SortableTreeWithoutDndContext = (
 
 export const SortableTree = (props: ReactSortableTreeProps) => {
   return (
-    <DndProvider debugMode={props.debugMode} backend={HTML5Backend}>
+    <DndProvider
+      debugMode={props.debugMode}
+      backend={HTML5Backend}
+      context={window}>
       <SortableTreeWithoutDndContext {...props} />
     </DndProvider>
   )

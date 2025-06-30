@@ -1,8 +1,8 @@
 {
-  "name": "@nosferatu500/react-sortable-tree",
+  "name": "@peteranderss0n/react-sortable-tree",
   "version": "5.0.0-alpha.7",
   "description": "Drag-and-drop sortable component for nested data and hierarchies",
-  "homepage": "https://nosferatu500.github.io/react-sortable-tree",
+  "homepage": "https://github.com/peteranderss0n/react-sortable-tree",
   "main": "lib/index.esm.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
@@ -11,7 +11,7 @@
     "clean-types": "rimraf lib/utils && rimraf lib/node-renderer-default.d.ts && rimraf lib/placeholder-renderer-default.d.ts && rimraf lib/react-sortable-tree.d.ts && rimraf lib/tree-node.d.ts && rimraf lib/tree-placeholder.d.ts",
     "prebuild": "npm run clean",
     "build": "rollup -c && npm run clean-types",
-    "lint": "eslint '*.{js,json}' 'src/**/*.{ts,tsx}' --cache",
+    "lint": "eslint . --ext .js,.json,.ts,.tsx --cache",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepublishOnly": "npm run build",
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nosferatu500/react-sortable-tree"
+    "url": "https://github.com/peteranderss0n/react-sortable-tree"
   },
   "keywords": [
     "react",
@@ -49,7 +49,7 @@
   ],
   "author": "Chris Fritz",
   "license": "MIT",
-  "bugs": "https://github.com/nosferatu500/react-sortable-tree/issues",
+  "bugs": "https://github.com/peteranderss0n/react-sortable-tree/issues",
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
     "@rollup/plugin-commonjs": "^26.0.1",
@@ -62,8 +62,8 @@
     "@storybook/react": "^8.2.9",
     "@storybook/react-webpack5": "^8.2.9",
     "@types/lodash.isequal": "^4.5.8",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
+    "@types/react": "^18.0.0 || ^19.0.0",
+    "@types/react-dom": "^18.0.0 || ^19.0.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint": "^8.57.0",
@@ -83,9 +83,9 @@
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.41",
     "prettier": "^3.3.3",
-    "react": "^18.3.1",
+    "react": "^18.0.0 || ^19.0.0",
     "react-dnd-touch-backend": "^14.1.1",
-    "react-dom": "^18.3.1",
+    "react-dom": "^18.0.0 || ^19.0.0",
     "rollup": "^4.21.0",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-postcss": "^4.0.2",
@@ -93,9 +93,9 @@
     "typescript": "^5.5.4"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
+    "react": "^19.1.0",
     "react-dnd": "14.0.4",
-    "react-dom": "^18.2.0"
+    "react-dom": "^19.1.0"
   },
   "dependencies": {
     "lodash.isequal": "^4.5.0",

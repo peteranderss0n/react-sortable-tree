@@ -6,10 +6,10 @@
   <img src="https://cloud.githubusercontent.com/assets/4413963/18860410/26f64de8-84b8-11e6-9284-350308eed30a.png"/>
 </div>
 
-![NPM version](https://img.shields.io/npm/v/@nosferatu500/react-sortable-tree.svg?style=flat)
-![NPM license](https://img.shields.io/npm/l/@nosferatu500/react-sortable-tree.svg?style=flat)
-[![NPM total downloads](https://img.shields.io/npm/dt/@nosferatu500/react-sortable-tree.svg?style=flat)](https://npmcharts.com/compare/@nosferatu500/react-sortable-tree?minimal=true)
-[![NPM monthly downloads](https://img.shields.io/npm/dm/@nosferatu500/react-sortable-tree.svg?style=flat)](https://npmcharts.com/compare/@nosferatu500/react-sortable-tree?minimal=true)
+![NPM version](https://img.shields.io/npm/v/@peteranderss0n/react-sortable-tree.svg?style=flat)
+![NPM license](https://img.shields.io/npm/l/@peteranderss0n/react-sortable-tree.svg?style=flat)
+[![NPM total downloads](https://img.shields.io/npm/dt/@peteranderss0n/react-sortable-tree.svg?style=flat)](https://npmcharts.com/compare/@peteranderss0n/react-sortable-tree?minimal=true)
+[![NPM monthly downloads](https://img.shields.io/npm/dm/@peteranderss0n/react-sortable-tree.svg?style=flat)](https://npmcharts.com/compare/@peteranderss0n/react-sortable-tree?minimal=true)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 > A React component for Drag-and-drop sortable representation of hierarchical data. Checkout the [Storybook](https://frontend-collective.github.io/react-sortable-tree/) for a demonstration of some basic and advanced features.

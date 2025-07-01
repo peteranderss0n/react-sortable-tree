@@ -1,7 +1,7 @@
 {
   "name": "@peteranderss0n/react-sortable-tree",
   "version": "1.0.5",
-  "description": "Drag-and-drop sortable component for nested data and hierarchies",
+  "description": "Drag-and-drop sortable component for nested data and hierarchies - now supports react 19 and strict mode",
   "homepage": "https://github.com/peteranderss0n/react-sortable-tree",
   "main": "lib/index.esm.js",
   "module": "lib/index.esm.js",

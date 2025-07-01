@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import isEqual from 'lodash.isequal'
 import { DndContext, DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
-import { VListHandle } from 'virtua'
+import { VList, VListHandle } from 'virtua'
 import NodeRendererDefault from './node-renderer-default'
 import PlaceholderRendererDefault from './placeholder-renderer-default'
 import TreeNode from './tree-node'
@@ -15,7 +15,6 @@ import {
   defaultSearchMethod,
 } from './utils/default-handlers'
 import { wrapPlaceholder, wrapSource, wrapTarget } from './utils/dnd-manager'
-import VList from './utils/FilteredVList'
 import { slideRows } from './utils/generic-utils'
 import {
   memoizedGetDescendantCount,
@@ -683,7 +682,7 @@ class ReactSortableTree extends Component {
         <VList
           id="vlist"
           ref={this.listRef}
-          dragDropManager={dragDropManager}
+          // dragDropManager={dragDropManager}
           style={innerStyle}
           count={rows.length}>
           {(index) => {

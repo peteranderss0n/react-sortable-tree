@@ -1,12 +1,10 @@
-# React 18 and 19 support
+# React Sortable Tree
 
-# Works with strict mode
+# Supports React 18 and 19 support and strict mode
 
 <div align="center">
   <img src="https://cloud.githubusercontent.com/assets/4413963/18860410/26f64de8-84b8-11e6-9284-350308eed30a.png"/>
 </div>
-
-# React Sortable Tree
 
 ![NPM version](https://img.shields.io/npm/v/@nosferatu500/react-sortable-tree.svg?style=flat)
 ![NPM license](https://img.shields.io/npm/l/@nosferatu500/react-sortable-tree.svg?style=flat)
